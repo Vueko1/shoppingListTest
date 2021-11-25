@@ -1,0 +1,84 @@
+/* font import */
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab|Special+Elite);
+/* reset */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* box-sizing */
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*, *::after, *::before {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+/* styles */
+body {
+  background: #22c1c3;
+  background: -webkit-gradient(linear, left bottom, left top, from(#22c1c3), to(rgba(253, 187, 45, 0.55506)));
+  background: linear-gradient(0deg, #22c1c3 0%, rgba(253, 187, 45, 0.55506) 100%);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100vh;
+  padding: 2em;
+}
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 600px;
+  text-align: center;
+  background-color: #E0C9A6;
+  border: 2px solid #caa56c;
+  padding: 0.5em;
+}
+
+.wrapper .heading {
+  font-family: 'Special Elite';
+  font-size: 1.8em;
+}
+
+.wrapper .pickingItems {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.wrapper .pickingItems input {
+  margin: 0.3em;
+  padding: 0.5em;
+  border: 1px solid #333;
+  border-radius: 5px;
+}
+
+.wrapper .pickingItems #button, .wrapper .pickingItems #clear {
+  cursor: pointer;
+}
+
+.wrapper #warning {
+  color: #ac2727;
+}
+
+.sp {
+  float: right;
+  cursor: pointer;
+  color: #ac2727;
+}
+
+.list {
+  text-align: left;
+  list-style-type: none;
+}
+
+.list li {
+  padding: 0.55em 1em;
+}
+/*# sourceMappingURL=styles.css.map */
